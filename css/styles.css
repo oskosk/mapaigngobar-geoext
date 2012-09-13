@@ -1,0 +1,292 @@
+* {
+	font-family: Verdana !important;
+}
+.featureInfo {
+	font-family: Tahoma;
+	font-size:10px;
+}
+
+.featureInfo h1{
+	margin-bottom:1em;
+}
+
+.featureInfo h2{
+	border-bottom:1px solid #085183;
+}
+
+.featuresGroup {
+	border-bottom: 1px solid #085183;
+}
+
+.individualFeature {
+	border-bottom: 1px dotted #085183;
+	padding:5px 0;
+}
+
+.transparent_class {
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.olControlScale, .olControlMousePosition  {
+	font-family:Lucida Console, Courier, Monotype;
+	font-weight:bold;
+	color:#666666;
+	font-size:13px;
+	width:120px;
+	padding:9px;
+	text-align:center;
+	background:url(http://wms.ign.gob.ar/img/transwpx.png) 0 0 repeat;
+}
+
+.entry, .entry h2{
+	margin:.5em 0;
+	padding:0;
+	font-size:.8em;
+}
+
+.search-item {
+	background: url("http://wms.ign.gob.ar/img/bg_result.png") center top no-repeat;
+	overflow:hidden;
+	padding:15px 0;
+	color: #fff;
+	font-size:.8em;
+	text-shadow:#000 0px 0px 3px;
+	cursor:pointer;
+
+}
+
+.search-item-snippet {
+	padding:0.25em;
+	font-size:.7em;
+}
+
+.search-item:hover h3{
+	font-weight:bold;
+	text-shadow:#99CC33 0px 0px 3px;
+}
+
+.toponymySearchItem h3{
+	background: url("http://wms.ign.gob.ar/img/toponymy-icon.png") 0 0 no-repeat;
+	padding-left: 50px;
+	padding-top:5px;
+	height:35px;
+}
+
+.layerSearchItem h3{
+	background: url("http://wms.ign.gob.ar/img/layer-icon.png") 0 0 no-repeat;
+	padding-left: 50px;
+	padding-top:5px;
+	height:35px;
+}
+
+
+.x-view-selected {
+	background: url("http://wms.ign.gob.ar/img/bg_selected.png") top center repeat-y;
+}
+
+.search-item .addLink {
+	width:32px;
+	height:32px;
+	background: url("http://wms.ign.gob.ar/img/starBW.png") 0 0 no-repeat;
+	float:right;
+}
+
+.search-item .removeLink {
+	width:32px;
+	height:32px;
+	background: url("http://wms.ign.gob.ar/img/star.png") 0 0 no-repeat;
+	float:right;
+}
+.search-item span{
+	display:block;
+	margin-left:50px;
+	font-size:10px;}
+
+.x-small-editor .x-form-text {
+	width:250px!important;
+	background:#ffffff url("http://wms.ign.gob.ar/img/bg_form.png") 0 0 repeat-y !important;
+}
+.x-small-editor .x-form-field-wrap .x-form-trigger {
+	height: 24px;
+}
+
+.x-toolbar td, .x-toolbar span, .x-toolbar input, .x-toolbar div, .x-toolbar select, .x-toolbar label {
+	font-size: 15px;
+}
+
+
+/*.sortable-record {*/
+/*	background: url("http://wms.ign.gob.ar/img/sortable-record-icon.png") 00px 0 no-repeat;*/
+/*	padding-left: 35px*/
+/*}*/
+
+.x-view-sortable-dragging {
+	border: dashed 2px #e18325;
+}
+
+
+.x-view-sortable-drag {
+	border: groove 5px #e18325;
+}
+
+.cursorPointer {
+	cursor:pointer;
+}
+
+#initLoading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+	height:auto;
+}
+#initLoading .initLoading-indicator{
+	color:#444;
+	text-align:center;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+	height:auto;
+}
+
+.translucent-window {
+	background:url("http://wms.ign.gob.ar/img/bg_panel.png") ;
+	padding:28px 15px 15px 15px;
+		
+}
+
+.translucent-window .x-window-tl,
+.translucent-window .x-window-tr,
+.translucent-window .x-window-tc,
+.translucent-window .x-window-ml,
+.translucent-window .x-window-mr,
+.translucent-window .x-window-mc,
+.translucent-window .x-window-bl,
+.translucent-window .x-window-br,
+.translucent-window .x-window-bc,
+.translucent-window .x-toolbar,
+.translucent-window .x-form-text,
+.translucent-window .x-window-mc textarea.x-form-field
+{
+	background: transparent;
+}
+
+.translucent-window .x-toolbar,
+.translucent-window .x-window-mc
+{
+	border:none;
+}
+
+.translucent-window .x-window-bc {
+	
+}
+
+.x-window-tl .x-window-header {
+	color: white;
+	font-family: tahoma, arial, verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.x-btn button {
+	font-family:Verdana !important;
+	font-weight: bold;
+	font-size: 11px;
+	text-shadow:#000 -1px 1px 3px;
+}
+
+.pipa {
+	background-color:#999;
+	border: double;
+	color:red
+}
+.x-plain-header{background:url("http://wms.ign.gob.ar/img/title_separ.png") 15% 100% no-repeat; padding:0 0 28px 0;}
+.x-plain-header-text {
+font-family:"Verdana", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-shadow:#000000 -3px 2px 3px;
+text-transform:uppercase;
+padding-left:16px;}
+
+.measurementWindow{
+/*position:relative!important;
+top:44px!important;
+left:522px!important;*/
+background:url("http://wms.ign.gob.ar/img/bg_panel.png") ;
+padding:28px 15px 15px 15px;
+}
+.measurementWindow button{
+font-size:11px;
+font-weight:normal;
+text-shadow:#000000 -3px 2px 3px!important;
+}
+.measurementWindow .x-window-body {
+font-size:11px;
+font-weight:normal;
+text-shadow:#000000 -3px 2px 3px!important;
+padding:20px;}
+
+.measurementWindow .x-window-draggable {
+background:url("http://wms.ign.gob.ar/img/bg_drag.png") 0 0 repeat !important ;}
+
+.measurementWindow .x-window-draggable .x-tool{
+background:url("../img/ext/access/panel/tool-sprites.gif") 0 0 no-repeat!important;}
+
+.measurementWindow div {
+background:transparent!important;
+border:none!important;}
+
+.x-tip {
+color:#FFFFFF!important;
+background:url("http://wms.ign.gob.ar/img/bg_panel.png") top right repeat!important;
+border: 1px solid!important;
+border-bottom:#333!important;
+border-left:#333!important;
+border-top:#777!important;
+border-right:#777!important;
+font-size:11px!important;
+font-weight:normal!important;
+text-shadow:#000 -1px 1px 3px!important;}
+.x-tip div{
+background:none!important;
+border:none!important;}
+
+.searchtip{ color:#CCCCCC; font-size:10px; font-style:italic; text-align:justify;}
+.searchtip a {color:#FF9900;}
+
+.x-plain-tbar{
+width:100%!important;}
+.x-toolbar{
+width:100%!important;
+background-image:none;
+background-color:#222222;}
+.x-toolbar-left-row{
+margin-bottom:10px;}
+
+.x-panel-bbar{ background:}
+.x-panel-bbar div {background:none!important;}
+
+
+.products-search { padding:5px; text-shadow:#000 -1px 1px 3px;}
+.products-search .products-link {display:block; margin-top:25px;}
+.products-search .products-link a { text-decoration:none; color:#FF9900; font-weight:bold;}
+.products-item { display:inline-block; background:url("http://wms.ign.gob.ar/img/bg_result.png") center bottom no-repeat; margin:0px 10px; min-height:150px;}
+.products-item .products-image { background:url("http://wms.ign.gob.ar/img/no-image.png") 0 0 no-repeat;width:93px; height:77px; float:left;}
+.products-item .products-image img { width:93px; height:77px; float:left; margin:0 5px 0 0;}
+.products-description { margin-left:110px;}
+.products-description ol {display:block;}
+.products-description ol li{float:left; padding:0 10px; font-size:11px; font-weight:normal;}
+.products-description h2{ display: inline-block; width:100%;}
+.products-description h3{ display: inline-block; width:100%; font-size:11px; font-weight:normal;}
+
+.olControlPanZoomBar {height:115px; width:115px;}
+
+
+
+
+div#OpenLayers.Control.PanZoomBar_14_panup img{border:#000000 1px solid!important; top:50px!important;}
